@@ -1,0 +1,2 @@
+Enter your saved screenshot path right below. Type "screenshots\\" to store it in the default location:
+screenshots\\

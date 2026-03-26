@@ -119,7 +119,7 @@ public class Window extends JWindow implements NativeKeyListener, NativeMouseLis
 			y2 = temp;
 		}
 		BufferedImage img = robot.createScreenCapture(new Rectangle(x1, y1, x2 - x1, y2 - y1));
-		ImageIO.write(img, "png", new File("screenshots\\" + date + ".png"));
+		ImageIO.write(img, "png", new File(Main.getFile() + date + ".png"));
 		System.out.println("Saved " + date + ".png");
 		setVisible(true);
 	}
